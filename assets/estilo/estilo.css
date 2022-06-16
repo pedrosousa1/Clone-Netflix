@@ -1,0 +1,239 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  font-family: "Martel Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.bloco-topo {
+  position: relative;
+  border-bottom: 8px solid #222;
+  margin: 0;
+  padding: 0;
+  background: url(https://assets.nflxext.com/ffe/siteui/vlv3/8ee18735-ada3-45be-b383-a94701054bb9/0c61fb9a-2dc0-44d5-a207-240a00f5f39c/BR-en-20220613-popsignuptwoweeks-perspective_alpha_website_medium.jpg)
+    center center no-repeat;
+  background-size: cover;
+}
+
+.topo {
+  width: 100%;
+  height: 642px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 8px solid #222;
+}
+.conteudo-topo {
+  z-index: 1000;
+  position: relative;
+}
+.mascara {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.41220238095238093) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.logo img {
+  width: 133px;
+  height: 36px;
+}
+#idioma-topo {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.329);
+  color: white;
+  padding-left: 36px;
+  padding-top: 5px;
+  width: 150px;
+}
+.idioma-topo i {
+  position: absolute;
+  top: 28px;
+  right: 234px;
+}
+.botao-entrar {
+  padding-left: 20px;
+}
+.botao-entrar button {
+  border-radius: 8%;
+  background-color: #e50914;
+  border: 1px solid #c90711;
+  padding: 6px 16px 6px;
+  width: 79px;
+  height: 34px;
+  color: white;
+}
+
+.titulo-top {
+  line-height: 50px;
+  padding-bottom: 22px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.chamada-top {
+  font-size: 26px;
+  padding-bottom: 30px;
+}
+.form1-top {
+  text-align: center;
+}
+.e-mail-top {
+  font-weight: bold;
+}
+.caixa-top {
+  display: flex;
+  justify-content: center;
+}
+input#email-top {
+  margin: 0;
+  padding: 14px;
+  padding-right: 220px;
+}
+.vamos-top button {
+  position: relative;
+  border-color: #e50914;
+  color: white;
+  font-size: 20px;
+  padding: 13px;
+  padding-right: 30px;
+  background-color: #e50914;
+}
+
+.bloco {
+  border-bottom: 8px solid #222;
+  padding: 30px 0px;
+}
+
+.bloco .titulo {
+  font-size: 45px;
+  font-weight: 700;
+}
+.bloco .chamada {
+  font-size: 20px;
+}
+.titulo h1 {
+  font-weight: 700;
+  text-align: center;
+}
+.lista {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2em auto;
+  padding: 50px 155px;
+}
+.lista ul {
+  padding: 0;
+}
+.lista li {
+  font-size: 28px;
+  list-style-type: none;
+  display: block;
+  position: relative;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  background: #303030;
+  margin-bottom: 10px;
+}
+.lista li i {
+  position: absolute;
+  right: 20px;
+  top: 32px;
+}
+.form1 {
+  text-align: center;
+}
+.e-mail {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+.caixa {
+  display: flex;
+  justify-content: center;
+}
+input#email {
+  margin: 0;
+  padding: 14px;
+  padding-right: 220px;
+}
+.vamos button {
+  position: relative;
+  border-color: #e50914;
+  color: white;
+  font-size: 20px;
+  padding: 13px;
+  padding-right: 30px;
+  background-color: #e50914;
+}
+.vamos i {
+  position: absolute;
+  top: 17px;
+  right: 11px;
+}
+.conteudo {
+  color: #757575;
+  padding-top: 100px;
+}
+.duvidas {
+  font-size: 16px;
+}
+.col a {
+  text-decoration: none;
+}
+.col a:hover {
+  text-decoration: underline;
+}
+.conteudo a {
+  color: #757575;
+}
+.lista2 {
+  padding-top: 30px;
+  font-size: 13px;
+}
+.lista2 a {
+  text-decoration: none;
+}
+.lista2 a:hover {
+  text-decoration: underline #757575;
+}
+.lista2 ul {
+  padding: 0px;
+}
+.lista2 li {
+  list-style-type: none;
+}
+#idioma {
+  position: relative;
+  background-color: black;
+  color: #757575;
+  padding-left: 36px;
+  padding-top: 5px;
+  width: 150px;
+}
+.idioma {
+  position: relative;
+}
+.idioma i {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+}
+.netflix {
+  color: #757575;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media screen and(min-width: 600px) {
+  .lista {
+    padding: 50px;
+  }
+}
